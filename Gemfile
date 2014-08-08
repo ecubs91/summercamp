@@ -26,6 +26,8 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+gem "paperclip", "~> 4.1"
+gem "paperclip-dropbox", ">= 1.1.7"
 
 group :production do
 	gem 'pg'
