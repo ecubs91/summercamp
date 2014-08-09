@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 1.2'
 gem "paperclip", "~> 4.1"
 gem "paperclip-dropbox", ">= 1.1.7"
 
+
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'

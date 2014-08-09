@@ -1,6 +1,10 @@
 Summercamp::Application.routes.draw do
+  resources :contacts
+
   get "pages/about"
   get "pages/contact"
+  get "pages/camp_schedule"
+  get "pages/how_it_works"
 
   root 'pages#index'
   # The priority is based upon order of creation: first created -> highest priority.

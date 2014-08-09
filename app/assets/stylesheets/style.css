@@ -1,4 +1,5 @@
 /* Website template by freewebsitetemplates.com */
+
 @font-face {
 	font-family: 'OpenSans';
 	src: url('../fonts/OpenSans-Regular.eot');
@@ -61,15 +62,17 @@ img {
 	margin-right: 20px;
 }
 #header .logo a {
-	background: url(../images/logo.png) no-repeat center top;
+	background: url("https://dl.dropboxusercontent.com/s/cq04h8cx5h9t2zi/logo.png") no-repeat center top;
 	color: #000;
 	display: block;
 	font: 15px/30px 'Play';
-	height: 20px;
+	font-family: Guardian-egyptt, georgia, serif;
+	height: 10px;
 	width: 76px;
 	padding-top: 68px;
 	text-decoration: none;
 	text-transform: uppercase;
+	text-align: center;
 }
 /** Navigation **/
 #navigation {
@@ -77,7 +80,7 @@ img {
 	list-style: none;
 	line-height: 100px;
 	margin: 0;
-	padding: 0;
+	padding: 0 ;
 }
 #navigation ul {
 	display: inline-block;
@@ -92,21 +95,26 @@ img {
 }
 #navigation li a {
 	color: #818181;
-	font-size: 15px;
+	font-size: 17px;
 	line-height: 30px;
 	text-decoration: none;
 }
 #navigation li a:hover {
-	color: #000;
+	color: #f99600;
 }
 #navigation li.active a {
 	color: #f99600;
 }
 #adbox {
-	background: url('https://www.dropbox.com/s/jx9kclazhc5blz7/Main%20page%20%28flash%29%20Workshop.JPG') repeat-x left top;
+	background-image: url('https://dl.dropboxusercontent.com/s/jx9kclazhc5blz7/Main%20page%20%28flash%29%20Workshop.JPG') repeat-x left top;
 	height: 380px;
 	padding: 60px 0;
 }
+#adbox .slogan {
+	font-size: 80px;
+	font-style: italic;
+
+} 
 #adbox > div {
 	width: 800px;
 	margin: 0 auto;
@@ -198,10 +206,9 @@ p a {
 }
 .date {
 	float: left;
-	height: 78px;
-	width: 70px;
+	height: 100px;
+	width: 100px;
 	margin-right: 20px;
-	border: 1px solid #d5d5d5;
 	text-align: center;
 }
 .date p {
@@ -212,10 +219,13 @@ p a {
 	font-size: 30px;
 	margin-bottom: 6px;
 }
+.date p span img {
+	margin: 12px 0 0;
+}
 .author {
 	color: #585858;
 	display: block;
-	font-size: 12px;
+	font-size: 6px;
 }
 .more {
 	background-color: #727272;
@@ -318,6 +328,8 @@ p a {
 .section h1 {
 	margin-bottom: 18px;
 }
+
+
 .message input[type='text'], .message textarea {
 	color: #aeaeae;
 	font-size: 13px;
@@ -357,9 +369,12 @@ p a {
 	line-height: 36px;
 	padding: 18px 0;
 }
+
+.form-control
+	
 /*------------------------------ FOOTER ------------------------------*/
 #footer {
-	background-color: #eee;
+	background-color: #e6eeee;
 	border-top: 1px solid #d8d8d8;
 	padding: 30px 0;
 }
@@ -374,7 +389,7 @@ p a {
 	margin-right: 30px;
 }
 #connect a {
-	background: url(../images/icons.png) no-repeat;
+	background: url("https://dl.dropboxusercontent.com/s/4rcj1tyfruh5el0/icons.png") no-repeat;
 	display: inline-block;
 	height: 30px;
 	width: 30px;

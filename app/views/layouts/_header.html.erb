@@ -1,29 +1,26 @@
 <div id="header">
 		<div>
 			<div class="logo">
-				<a href="index.html">Zero Type</a>
+				<%= link_to "Oxford Edu", root_path %>
 			</div>
 			<ul id="navigation">
 				<li class="active">
-					<a href="index.html">Home</a>
+					<%= link_to "Home", root_path %>
 				</li>
 				<li>
-					<a href="features.html">Features</a>
+					<%= link_to "About", pages_about_path %>
 				</li>
 				<li>
-					<a href="news.html">News</a>
-					<div class="submenu">
-						<a href="post.html">Single Post</a>
-					</div>
+					<%= link_to "Camp Schedule", pages_camp_schedule_path %></a>
 				</li>
 				<li>
-					<a href="about.html">About</a>
+					<%= link_to "How it Works", pages_how_it_works_path %>
 				</li>
 				<li>
-					<a href="contact.html">Contact</a>
+					<%= link_to "Contact", new_contact_path %>
 				</li>
 			</ul>
 		</div>
 	</div>
 
-	
+ 
